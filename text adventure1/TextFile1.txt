@@ -1,0 +1,29 @@
+﻿to do list:
+1. make skeleton with clases and a basic setup, (clases, choices, basic mechanics.);
+2. trouble shoot the basic setup and get it working.
+3. get outside input to expand ideas and possibly discover things you havent thought of.
+4. expand possible choises and increase possible outcomes of the story. 
+
+
+
+checklist of subject topics to incorporate and use thru the project: 	- Objektorientering.
+	- Klasser -
+	- Logikk 
+	- Innkapsling [public, private]
+	- Interface. public entrace / private 
+	- Arv 
+	- Default value, overload. stats  and resistances. 
+
+	ideas for extra features:
+	- a dice roll feature to determine outcome of choices, 
+	- a fail possibility
+	- let the player chose a past for the character (the choise of past displays one of 3 prologues.)
+	- make something for the entrance to the cave (abandoned shack by the side of a mountain or something.)
+	- maybe make a choice scenario before finding the cave. maybe bandits apear and you need a place to hide or some other problem that leads you into the cave.
+
+	dice roll feature : 
+	public int RandomNumber(int maxNumber){
+int rand = newRandom();
+int number = rand.Next(0, maxNumber);
+return number;
+}
